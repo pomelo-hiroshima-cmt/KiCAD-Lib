@@ -30,7 +30,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SES-Lib:VFQFPN_9x9x1.0_64L"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41,7 +41,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stspin32g4.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -65,8 +65,8 @@
 		)
 		(symbol "STSPIN32G4_1_1"
 			(rectangle
-				(start -19.05 -19.05)
-				(end 19.05 -120.65)
+				(start -16.51 -19.05)
+				(end 16.51 -120.65)
 				(stroke
 					(width 0)
 					(type solid)
@@ -112,7 +112,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -104.14 0)
+				(at -19.05 -104.14 0)
 				(length 2.54)
 				(name "PC13"
 					(effects
@@ -130,7 +130,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -106.68 0)
+				(at -19.05 -106.68 0)
 				(length 2.54)
 				(name "PC14"
 					(effects
@@ -148,7 +148,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -109.22 0)
+				(at -19.05 -109.22 0)
 				(length 2.54)
 				(name "PC15"
 					(effects
@@ -166,7 +166,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -33.02 0)
+				(at -19.05 -33.02 0)
 				(length 2.54)
 				(name "PF0"
 					(effects
@@ -184,7 +184,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -35.56 0)
+				(at -19.05 -35.56 0)
 				(length 2.54)
 				(name "PF1"
 					(effects
@@ -202,7 +202,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -25.4 0)
+				(at -19.05 -25.4 0)
 				(length 2.54)
 				(name "PG10"
 					(effects
@@ -220,7 +220,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -88.9 0)
+				(at -19.05 -88.9 0)
 				(length 2.54)
 				(name "PC0"
 					(effects
@@ -238,7 +238,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -91.44 0)
+				(at -19.05 -91.44 0)
 				(length 2.54)
 				(name "PC1"
 					(effects
@@ -256,7 +256,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -93.98 0)
+				(at -19.05 -93.98 0)
 				(length 2.54)
 				(name "PC2"
 					(effects
@@ -274,7 +274,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -96.52 0)
+				(at -19.05 -96.52 0)
 				(length 2.54)
 				(name "PC3"
 					(effects
@@ -292,7 +292,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -45.72 0)
+				(at -19.05 -45.72 0)
 				(length 2.54)
 				(name "PA0"
 					(effects
@@ -310,7 +310,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -48.26 0)
+				(at -19.05 -48.26 0)
 				(length 2.54)
 				(name "PA1"
 					(effects
@@ -328,7 +328,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -50.8 0)
+				(at -19.05 -50.8 0)
 				(length 2.54)
 				(name "PA2"
 					(effects
@@ -346,7 +346,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -53.34 0)
+				(at -19.05 -53.34 0)
 				(length 2.54)
 				(name "PA3"
 					(effects
@@ -364,7 +364,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -55.88 0)
+				(at -19.05 -55.88 0)
 				(length 2.54)
 				(name "PA4"
 					(effects
@@ -382,7 +382,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -58.42 0)
+				(at -19.05 -58.42 0)
 				(length 2.54)
 				(name "PA5"
 					(effects
@@ -400,7 +400,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -60.96 0)
+				(at -19.05 -60.96 0)
 				(length 2.54)
 				(name "PA6"
 					(effects
@@ -418,7 +418,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -63.5 0)
+				(at -19.05 -63.5 0)
 				(length 2.54)
 				(name "PA7"
 					(effects
@@ -436,7 +436,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -99.06 0)
+				(at -19.05 -99.06 0)
 				(length 2.54)
 				(name "PC4"
 					(effects
@@ -454,7 +454,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -101.6 0)
+				(at -19.05 -101.6 0)
 				(length 2.54)
 				(name "PC5"
 					(effects
@@ -472,7 +472,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -35.56 180)
+				(at 19.05 -35.56 180)
 				(length 2.54)
 				(name "PB0"
 					(effects
@@ -490,7 +490,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -38.1 180)
+				(at 19.05 -38.1 180)
 				(length 2.54)
 				(name "PB1"
 					(effects
@@ -508,7 +508,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -40.64 180)
+				(at 19.05 -40.64 180)
 				(length 2.54)
 				(name "PB2"
 					(effects
@@ -526,7 +526,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -27.94 0)
+				(at -19.05 -27.94 0)
 				(length 2.54)
 				(name "VREF+"
 					(effects
@@ -562,7 +562,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -60.96 180)
+				(at 19.05 -60.96 180)
 				(length 2.54)
 				(name "PB10"
 					(effects
@@ -580,7 +580,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -96.52 180)
+				(at 19.05 -96.52 180)
 				(length 2.54)
 				(name "GLS1"
 					(effects
@@ -598,7 +598,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -99.06 180)
+				(at 19.05 -99.06 180)
 				(length 2.54)
 				(name "GLS2"
 					(effects
@@ -616,7 +616,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -101.6 180)
+				(at 19.05 -101.6 180)
 				(length 2.54)
 				(name "GLS3"
 					(effects
@@ -652,7 +652,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -71.12 180)
+				(at 19.05 -71.12 180)
 				(length 2.54)
 				(name "BOOT3"
 					(effects
@@ -670,7 +670,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -81.28 180)
+				(at 19.05 -81.28 180)
 				(length 2.54)
 				(name "OUT3"
 					(effects
@@ -688,7 +688,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -91.44 180)
+				(at 19.05 -91.44 180)
 				(length 2.54)
 				(name "GHS3"
 					(effects
@@ -706,7 +706,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -68.58 180)
+				(at 19.05 -68.58 180)
 				(length 2.54)
 				(name "BOOT2"
 					(effects
@@ -724,7 +724,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -78.74 180)
+				(at 19.05 -78.74 180)
 				(length 2.54)
 				(name "OUT2"
 					(effects
@@ -742,7 +742,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -88.9 180)
+				(at 19.05 -88.9 180)
 				(length 2.54)
 				(name "GHS2"
 					(effects
@@ -760,7 +760,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -66.04 180)
+				(at 19.05 -66.04 180)
 				(length 2.54)
 				(name "BOOT1"
 					(effects
@@ -778,7 +778,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -76.2 180)
+				(at 19.05 -76.2 180)
 				(length 2.54)
 				(name "OUT1"
 					(effects
@@ -796,7 +796,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -86.36 180)
+				(at 19.05 -86.36 180)
 				(length 2.54)
 				(name "GHS1"
 					(effects
@@ -814,7 +814,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -66.04 0)
+				(at -19.05 -66.04 0)
 				(length 2.54)
 				(name "PA8"
 					(effects
@@ -832,7 +832,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -68.58 0)
+				(at -19.05 -68.58 0)
 				(length 2.54)
 				(name "PA9"
 					(effects
@@ -850,7 +850,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -71.12 0)
+				(at -19.05 -71.12 0)
 				(length 2.54)
 				(name "PA10"
 					(effects
@@ -868,7 +868,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -73.66 0)
+				(at -19.05 -73.66 0)
 				(length 2.54)
 				(name "PA11"
 					(effects
@@ -886,7 +886,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -76.2 0)
+				(at -19.05 -76.2 0)
 				(length 2.54)
 				(name "PA12"
 					(effects
@@ -904,7 +904,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -78.74 0)
+				(at -19.05 -78.74 0)
 				(length 2.54)
 				(name "PA13"
 					(effects
@@ -922,7 +922,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -81.28 0)
+				(at -19.05 -81.28 0)
 				(length 2.54)
 				(name "PA14"
 					(effects
@@ -940,7 +940,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -83.82 0)
+				(at -19.05 -83.82 0)
 				(length 2.54)
 				(name "PA15"
 					(effects
@@ -958,7 +958,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -106.68 180)
+				(at 19.05 -106.68 180)
 				(length 2.54)
 				(name "SCREF"
 					(effects
@@ -976,7 +976,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -40.64 0)
+				(at -19.05 -40.64 0)
 				(length 2.54)
 				(name "PD2"
 					(effects
@@ -994,7 +994,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -43.18 180)
+				(at 19.05 -43.18 180)
 				(length 2.54)
 				(name "PB3"
 					(effects
@@ -1012,7 +1012,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -45.72 180)
+				(at 19.05 -45.72 180)
 				(length 2.54)
 				(name "PB4"
 					(effects
@@ -1030,7 +1030,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -48.26 180)
+				(at 19.05 -48.26 180)
 				(length 2.54)
 				(name "PB5"
 					(effects
@@ -1048,7 +1048,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -50.8 180)
+				(at 19.05 -50.8 180)
 				(length 2.54)
 				(name "PB6"
 					(effects
@@ -1066,7 +1066,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -53.34 180)
+				(at 19.05 -53.34 180)
 				(length 2.54)
 				(name "PB7"
 					(effects
@@ -1084,7 +1084,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -55.88 180)
+				(at 19.05 -55.88 180)
 				(length 2.54)
 				(name "PB8"
 					(effects
@@ -1102,7 +1102,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -58.42 180)
+				(at 19.05 -58.42 180)
 				(length 2.54)
 				(name "PB9"
 					(effects
@@ -1138,7 +1138,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -109.22 180)
+				(at 19.05 -109.22 180)
 				(length 2.54)
 				(name "SW"
 					(effects
