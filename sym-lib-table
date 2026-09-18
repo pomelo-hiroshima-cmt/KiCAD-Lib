@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "ROHM") (type "KiCad") (uri "${SES_SYMBOL_DIR}/Rohm.kicad_sym") (options "") (descr ""))
 	(lib (name "STMicroelectronics") (type "KiCad") (uri "${SES_SYMBOL_DIR}/STMicroelectronics.kicad_sym") (options "") (descr ""))
+	(lib (name "SES-Sym") (type "KiCad") (uri "${SES_SYMBOL_DIR}/SES-Sym.kicad_sym") (options "") (descr ""))
 )
