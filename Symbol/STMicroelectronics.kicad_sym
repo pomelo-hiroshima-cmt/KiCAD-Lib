@@ -9,7 +9,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 5.08 -52.07 0)
+			(at 21.59 -102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20,7 +20,7 @@
 			)
 		)
 		(property "Value" "STSPIN32G4"
-			(at 5.08 -54.61 0)
+			(at 21.59 -105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Footprint" "SES-Lib:VFQFPN_9x9x1.0_64L"
-			(at 0 0 0)
+			(at 16.51 -50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -42,7 +42,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stspin32g4.pdf"
-			(at 0 0 0)
+			(at 16.51 -50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -53,7 +53,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 16.51 -50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -65,8 +65,8 @@
 		)
 		(symbol "STSPIN32G4_1_1"
 			(rectangle
-				(start -16.51 50.8)
-				(end 16.51 -50.8)
+				(start 0 0)
+				(end 33.02 -101.6)
 				(stroke
 					(width 0)
 					(type solid)
@@ -76,7 +76,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 53.34 270)
+				(at 8.89 2.54 270)
 				(length 2.54)
 				(name "REG3V3/VDD"
 					(effects
@@ -94,7 +94,7 @@
 				)
 			)
 			(pin power_in line
-				(at -7.62 53.34 270)
+				(at 6.35 2.54 270)
 				(length 2.54)
 				(name "VBAT"
 					(effects
@@ -112,7 +112,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -34.29 0)
+				(at -2.54 -85.09 0)
 				(length 2.54)
 				(name "PC13"
 					(effects
@@ -130,7 +130,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -36.83 0)
+				(at -2.54 -87.63 0)
 				(length 2.54)
 				(name "PC14"
 					(effects
@@ -148,7 +148,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -39.37 0)
+				(at -2.54 -90.17 0)
 				(length 2.54)
 				(name "PC15"
 					(effects
@@ -166,7 +166,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 36.83 0)
+				(at -2.54 -13.97 0)
 				(length 2.54)
 				(name "PF0"
 					(effects
@@ -184,7 +184,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 34.29 0)
+				(at -2.54 -16.51 0)
 				(length 2.54)
 				(name "PF1"
 					(effects
@@ -202,7 +202,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 44.45 0)
+				(at -2.54 -6.35 0)
 				(length 2.54)
 				(name "PG10"
 					(effects
@@ -220,7 +220,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -19.05 0)
+				(at -2.54 -69.85 0)
 				(length 2.54)
 				(name "PC0"
 					(effects
@@ -238,7 +238,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -21.59 0)
+				(at -2.54 -72.39 0)
 				(length 2.54)
 				(name "PC1"
 					(effects
@@ -256,7 +256,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -24.13 0)
+				(at -2.54 -74.93 0)
 				(length 2.54)
 				(name "PC2"
 					(effects
@@ -274,7 +274,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -26.67 0)
+				(at -2.54 -77.47 0)
 				(length 2.54)
 				(name "PC3"
 					(effects
@@ -292,7 +292,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 24.13 0)
+				(at -2.54 -26.67 0)
 				(length 2.54)
 				(name "PA0"
 					(effects
@@ -310,7 +310,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 21.59 0)
+				(at -2.54 -29.21 0)
 				(length 2.54)
 				(name "PA1"
 					(effects
@@ -328,7 +328,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 19.05 0)
+				(at -2.54 -31.75 0)
 				(length 2.54)
 				(name "PA2"
 					(effects
@@ -346,7 +346,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 16.51 0)
+				(at -2.54 -34.29 0)
 				(length 2.54)
 				(name "PA3"
 					(effects
@@ -364,7 +364,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 13.97 0)
+				(at -2.54 -36.83 0)
 				(length 2.54)
 				(name "PA4"
 					(effects
@@ -382,7 +382,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 11.43 0)
+				(at -2.54 -39.37 0)
 				(length 2.54)
 				(name "PA5"
 					(effects
@@ -400,7 +400,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 8.89 0)
+				(at -2.54 -41.91 0)
 				(length 2.54)
 				(name "PA6"
 					(effects
@@ -418,7 +418,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 6.35 0)
+				(at -2.54 -44.45 0)
 				(length 2.54)
 				(name "PA7"
 					(effects
@@ -436,7 +436,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -29.21 0)
+				(at -2.54 -80.01 0)
 				(length 2.54)
 				(name "PC4"
 					(effects
@@ -454,7 +454,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -31.75 0)
+				(at -2.54 -82.55 0)
 				(length 2.54)
 				(name "PC5"
 					(effects
@@ -472,7 +472,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 34.29 180)
+				(at 35.56 -16.51 180)
 				(length 2.54)
 				(name "PB0"
 					(effects
@@ -490,7 +490,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 31.75 180)
+				(at 35.56 -19.05 180)
 				(length 2.54)
 				(name "PB1"
 					(effects
@@ -508,7 +508,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 29.21 180)
+				(at 35.56 -21.59 180)
 				(length 2.54)
 				(name "PB2"
 					(effects
@@ -526,7 +526,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 41.91 0)
+				(at -2.54 -8.89 0)
 				(length 2.54)
 				(name "VREF+"
 					(effects
@@ -544,7 +544,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 53.34 270)
+				(at 11.43 2.54 270)
 				(length 2.54)
 				(name "VDDA"
 					(effects
@@ -562,7 +562,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 8.89 180)
+				(at 35.56 -41.91 180)
 				(length 2.54)
 				(name "PB10"
 					(effects
@@ -580,7 +580,7 @@
 				)
 			)
 			(pin output line
-				(at 19.05 -26.67 180)
+				(at 35.56 -77.47 180)
 				(length 2.54)
 				(name "GLS1"
 					(effects
@@ -598,7 +598,7 @@
 				)
 			)
 			(pin output line
-				(at 19.05 -29.21 180)
+				(at 35.56 -80.01 180)
 				(length 2.54)
 				(name "GLS2"
 					(effects
@@ -616,7 +616,7 @@
 				)
 			)
 			(pin output line
-				(at 19.05 -31.75 180)
+				(at 35.56 -82.55 180)
 				(length 2.54)
 				(name "GLS3"
 					(effects
@@ -634,7 +634,7 @@
 				)
 			)
 			(pin input line
-				(at 2.54 -53.34 90)
+				(at 19.05 -104.14 90)
 				(length 2.54)
 				(name "PGND"
 					(effects
@@ -651,8 +651,46 @@
 					)
 				)
 			)
+			(pin no_connect line
+				(at 35.56 -100.33 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 35.56 -100.33 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
-				(at 19.05 -1.27 180)
+				(at 35.56 -52.07 180)
 				(length 2.54)
 				(name "BOOT3"
 					(effects
@@ -670,7 +708,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 -11.43 180)
+				(at 35.56 -62.23 180)
 				(length 2.54)
 				(name "OUT3"
 					(effects
@@ -688,7 +726,7 @@
 				)
 			)
 			(pin output line
-				(at 19.05 -21.59 180)
+				(at 35.56 -72.39 180)
 				(length 2.54)
 				(name "GHS3"
 					(effects
@@ -706,7 +744,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 1.27 180)
+				(at 35.56 -49.53 180)
 				(length 2.54)
 				(name "BOOT2"
 					(effects
@@ -724,7 +762,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 -8.89 180)
+				(at 35.56 -59.69 180)
 				(length 2.54)
 				(name "OUT2"
 					(effects
@@ -742,7 +780,7 @@
 				)
 			)
 			(pin output line
-				(at 19.05 -19.05 180)
+				(at 35.56 -69.85 180)
 				(length 2.54)
 				(name "GHS2"
 					(effects
@@ -760,7 +798,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 3.81 180)
+				(at 35.56 -46.99 180)
 				(length 2.54)
 				(name "BOOT1"
 					(effects
@@ -778,7 +816,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 -6.35 180)
+				(at 35.56 -57.15 180)
 				(length 2.54)
 				(name "OUT1"
 					(effects
@@ -796,7 +834,7 @@
 				)
 			)
 			(pin output line
-				(at 19.05 -16.51 180)
+				(at 35.56 -67.31 180)
 				(length 2.54)
 				(name "GHS1"
 					(effects
@@ -814,7 +852,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 3.81 0)
+				(at -2.54 -46.99 0)
 				(length 2.54)
 				(name "PA8"
 					(effects
@@ -832,7 +870,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 1.27 0)
+				(at -2.54 -49.53 0)
 				(length 2.54)
 				(name "PA9"
 					(effects
@@ -850,7 +888,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -1.27 0)
+				(at -2.54 -52.07 0)
 				(length 2.54)
 				(name "PA10"
 					(effects
@@ -868,7 +906,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -3.81 0)
+				(at -2.54 -54.61 0)
 				(length 2.54)
 				(name "PA11"
 					(effects
@@ -886,7 +924,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -6.35 0)
+				(at -2.54 -57.15 0)
 				(length 2.54)
 				(name "PA12"
 					(effects
@@ -904,7 +942,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -8.89 0)
+				(at -2.54 -59.69 0)
 				(length 2.54)
 				(name "PA13"
 					(effects
@@ -922,7 +960,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -2.54 -62.23 0)
 				(length 2.54)
 				(name "PA14"
 					(effects
@@ -940,7 +978,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -13.97 0)
+				(at -2.54 -64.77 0)
 				(length 2.54)
 				(name "PA15"
 					(effects
@@ -958,7 +996,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 -36.83 180)
+				(at 35.56 -87.63 180)
 				(length 2.54)
 				(name "SCREF"
 					(effects
@@ -976,7 +1014,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 29.21 0)
+				(at -2.54 -21.59 0)
 				(length 2.54)
 				(name "PD2"
 					(effects
@@ -994,7 +1032,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 26.67 180)
+				(at 35.56 -24.13 180)
 				(length 2.54)
 				(name "PB3"
 					(effects
@@ -1012,7 +1050,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 24.13 180)
+				(at 35.56 -26.67 180)
 				(length 2.54)
 				(name "PB4"
 					(effects
@@ -1030,7 +1068,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 21.59 180)
+				(at 35.56 -29.21 180)
 				(length 2.54)
 				(name "PB5"
 					(effects
@@ -1048,7 +1086,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 19.05 180)
+				(at 35.56 -31.75 180)
 				(length 2.54)
 				(name "PB6"
 					(effects
@@ -1066,7 +1104,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 16.51 180)
+				(at 35.56 -34.29 180)
 				(length 2.54)
 				(name "PB7"
 					(effects
@@ -1084,7 +1122,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 13.97 180)
+				(at 35.56 -36.83 180)
 				(length 2.54)
 				(name "PB8"
 					(effects
@@ -1102,7 +1140,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 11.43 180)
+				(at 35.56 -39.37 180)
 				(length 2.54)
 				(name "PB9"
 					(effects
@@ -1120,7 +1158,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 53.34 270)
+				(at 15.24 2.54 270)
 				(length 2.54)
 				(name "VM"
 					(effects
@@ -1138,7 +1176,7 @@
 				)
 			)
 			(pin power_out line
-				(at 19.05 -39.37 180)
+				(at 25.4 2.54 270)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -1156,7 +1194,7 @@
 				)
 			)
 			(pin input line
-				(at 2.54 53.34 270)
+				(at 27.94 2.54 270)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -1174,7 +1212,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 53.34 270)
+				(at 30.48 2.54 270)
 				(length 2.54)
 				(name "REGIN"
 					(effects
@@ -1192,7 +1230,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -53.34 90)
+				(at 13.97 -104.14 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
