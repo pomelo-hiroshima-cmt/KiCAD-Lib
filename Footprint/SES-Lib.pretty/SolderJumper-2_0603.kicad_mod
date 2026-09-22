@@ -1,0 +1,178 @@
+(footprint "SolderJumper-2_0603"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "db265c56-b4ad-4acf-b0e2-396c2d5b12d7")
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+		)
+	)
+	(property "Value" "SolderJumper-2_0603"
+		(at 0 1.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "80e4ba2e-421f-4bea-b666-1cd496b44d2f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8a1c087-8e5f-443b-87ce-2dbce6618e72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Jumper, 2-pole, small symbol, open"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7dd94bf8-79ca-4f59-88fd-e802010565d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
+	(sheetname "/Connector/")
+	(sheetfile "Connector.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.254724 -0.5225)
+		(end 0.254724 -0.5225)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7fe21db0-488d-4477-b78b-14cc10d1eea8")
+	)
+	(fp_line
+		(start -0.254724 0.5225)
+		(end 0.254724 0.5225)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4af01783-4ce9-4137-9083-60d66aee73da")
+	)
+	(fp_rect
+		(start -1.65 -0.73)
+		(end 1.65 0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "29217663-f2a5-47cb-83ac-d41978214d87")
+	)
+	(fp_rect
+		(start -0.75 -0.31)
+		(end 0.74 0.31)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "f582257c-4cbf-4bd9-ad01-de5afd696e0e")
+	)
+	(fp_rect
+		(start -0.8 -0.4125)
+		(end 0.8 0.4125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d08e7aed-30c9-4e77-8186-206060266b4b")
+	)
+	(fp_text user " "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1286c504-0eef-47d7-88f6-c0f2d4140857")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.9125 0)
+		(size 0.975 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "dee58c74-783f-4847-bf2d-c12e56ec1be9")
+	)
+	(pad "1" smd custom
+		(at -0.47 -0.01)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.285539 0.32) (xy -0.285539 -0.3) (xy 0.264461 -0.3) (xy 0.574461 0.01) (xy 0.264461 0.32)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "a7a13864-264d-43bc-9bdd-c7e5cc778ad3")
+	)
+	(pad "2" smd custom
+		(at 0.49 0)
+		(size 0.09277 0.300572)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.53 -0.31) (xy -0.22 0) (xy -0.53 0.31) (xy 0.249994 0.309983) (xy 0.250006 -0.309951)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "93bae8b0-35fd-4a5c-b08d-688aaad643a4")
+	)
+	(pad "2" smd roundrect
+		(at 0.9125 0)
+		(size 0.975 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "3da92ad1-f952-4800-bfcb-9a62f719505f")
+	)
+	(embedded_fonts no)
+)
