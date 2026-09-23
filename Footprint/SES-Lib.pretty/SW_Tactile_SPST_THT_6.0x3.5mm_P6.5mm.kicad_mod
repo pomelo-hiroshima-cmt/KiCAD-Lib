@@ -1,0 +1,224 @@
+(footprint "SW_Tactile_SPST_THT_6.0x3.5mm_P6.5mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Tactile switch, through hole, 6.0 x 3.5 mm body, stem height 4.3 mm, 2 terminals, 6.5 mm pitch. Fits Zhejiang Jianfu TVBP06-B043Cx-B (Akizuki 108073 / 108215) and the generic 6x3.5 THT tact switch. Hole/pad derived from the 1.0 x 0.3 mm blade terminal per IPC-2222 - verify against the P.C.B LAND DIMENSION drawing in the datasheet.")
+	(tags "switch tactile tact THT SPST")
+	(property "Reference" "SW**"
+		(at 0 -3.2 0)
+		(layer "F.SilkS")
+		(uuid "d80bcbcd-2301-46d2-904f-c7d21d3a859d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_Tactile_SPST_THT_6.0x3.5mm_P6.5mm"
+		(at 0 3.2 0)
+		(layer "F.Fab")
+		(uuid "b9c57834-9d10-4398-9b96-eb53779c7076")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://akizukidenshi.com/goodsaffix/TVBP06-BN043CB-B.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f46cb8b-0155-48b4-950f-de6a7dfd7535")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Tactile switch SPST-NO, THT, 6.0x3.5mm, 250gf, 30k cycles"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09a110ca-c8cb-4f8e-9be8-ace7ead1475c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.11 -1.86)
+		(end -3.11 -1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "86106ca6-7175-44ed-b27b-37b77a07cb72")
+	)
+	(fp_line
+		(start -3.11 -1.86)
+		(end 3.11 -1.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "351f150f-9bcd-453e-a45d-7c5559224f9d")
+	)
+	(fp_line
+		(start -3.11 1.1)
+		(end -3.11 1.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db07ce8a-7406-42dc-b7ea-192f09279016")
+	)
+	(fp_line
+		(start -3.11 1.86)
+		(end 3.11 1.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6956206e-c789-4ad9-a95f-daf6a3f4a1cd")
+	)
+	(fp_line
+		(start 3.11 -1.86)
+		(end 3.11 -1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "81e895f1-2142-4d0d-bb1b-a5d99083f598")
+	)
+	(fp_line
+		(start 3.11 1.1)
+		(end 3.11 1.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "00b5c3b1-2add-4252-bf86-fcdec1009bc7")
+	)
+	(fp_rect
+		(start -1.475 -0.725)
+		(end 1.475 0.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "36a34052-f412-4095-a6ae-8268d4a9c38a")
+	)
+	(fp_line
+		(start -4.4 -2)
+		(end 4.4 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5993ca24-0753-47ce-9e1d-5208040daded")
+	)
+	(fp_line
+		(start -4.4 2)
+		(end -4.4 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f7d2bedd-8024-4d48-ab74-e99f2524cfbc")
+	)
+	(fp_line
+		(start 4.4 -2)
+		(end 4.4 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ef4a458e-95b5-4208-a715-430106d95e69")
+	)
+	(fp_line
+		(start 4.4 2)
+		(end -4.4 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "10a3aa30-c6f3-4776-815d-cd81479441d5")
+	)
+	(fp_line
+		(start -3 -1.75)
+		(end 3 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "04a76da8-5c37-4988-87ca-71851421c246")
+	)
+	(fp_line
+		(start -3 1.75)
+		(end -3 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "911c26a9-d942-4b06-a77a-06dd7acd1512")
+	)
+	(fp_line
+		(start 3 -1.75)
+		(end 3 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bb02239c-6eb8-467c-b5b9-6ee28c516637")
+	)
+	(fp_line
+		(start 3 1.75)
+		(end -3 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "33eba3ca-ef17-408f-8f5c-3826b8878371")
+	)
+	(pad "1" thru_hole rect
+		(at -3.25 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "25749865-fd80-4ac0-ab2e-31abc5e29d50")
+	)
+	(pad "2" thru_hole circle
+		(at 3.25 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ccd9ec41-d130-4a32-8d52-9644cd105770")
+	)
+	(embedded_fonts no)
+)
